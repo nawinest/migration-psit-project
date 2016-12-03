@@ -42,6 +42,7 @@ body{
 	width: 100%;
 	margin: -5px 0 0 0;
 	background-image: url('../img/banner.png');
+	background-attachment: fixed;
 }
 
 .logo{
@@ -81,10 +82,58 @@ li{
     margin: 10px 10px 10px 10px;
 }
 
-.logo h2, h4{
+.logo h2, h4, .con_top h1{
 	font-family: 'Fjalla One', sans-serif;
 }
 
-p{
+p, h3, h5, h6{
 	font-family: 'Prompt', sans-serif;
+}
+
+.con_top h1{
+
+	color: white;
+}
+
+.con_top{
+	text-align: left;
+	padding: 10px;
+
+}
+.conclude{
+	text-align: left;
+	padding-left: 50px;
+	height: 250px;
+	background-color: black;
+}
+.conclude ul li{
+	color: white;
+	text-align: left;
+	width: 20%;
+	padding-left: 5px;
+	display: block;
+}
+
+.describe{
+	color: white;
+	background-color: #eea236;
+	border-radius: 15px;
+	text-shadow: 1px 1px 4px black;
+	margin: 0 25%; 
+}
+
+span{
+	color:#FFC107;
+}
+
+#con{
+	background-color: #FFC107;
+}
+
+#cons{
+	border-color:#FFC107;
+}
+
+.panel-title{
+	text-shadow: 1px 1px 1px black;
 }
