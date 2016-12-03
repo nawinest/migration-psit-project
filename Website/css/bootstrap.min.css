@@ -80,3 +80,11 @@ ul{
 li{
     margin: 10px 10px 10px 10px;
 }
+
+.logo h2, h4{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+p{
+	font-family: 'Prompt', sans-serif;
+}
