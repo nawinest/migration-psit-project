@@ -8,8 +8,16 @@
 body{
 	padding: 0;
 	margin: 0;
-	background: #e5e5e5;
+	background: black;
 	}
+
+.choice{
+	padding-top: 25px;
+}
+
+.thumbnail{
+	box-shadow: 1px 1px 15px black;
+}
 
 .navigator, .nav-s{
 	margin: -9px 0 0 0;
@@ -18,6 +26,20 @@ body{
 
 }
 
+#footer{
+	height: 40px;
+	background-color: #a0a0a0;
+}
+#footer p{
+	padding: 10px 0px 0px 10px;
+}
+.col-md-6{
+	padding: 0px;
+}
+
+.show{
+	z-index: 1;
+}
 .nav-s{
 	clear: both;
 	background-color: black;
@@ -34,20 +56,21 @@ body{
 }
 
 .nav-s li a:hover{
-	color: #e5e5e5;
+	color:#FFC107;
 }
 
 .banner{
-	height: 500px;
+	height: 100vh;
 	width: 100%;
 	margin: -5px 0 0 0;
-	background-image: url('../img/banner.png');
+	background-color: blackf;
 	background-attachment: fixed;
 }
 
 .logo{
 	text-align: center;
 	color: white;
+	padding-top: 45px;
 }
 
 #graph img{
@@ -68,11 +91,7 @@ li{
 	padding: 10px 0 0 0;
 }
 
-.conclude{
-	width: 100%;
-	height: 500px;
-	background: #5e5e5e;
-}
+
 
 ul{
     padding-left: 0px;
@@ -90,9 +109,21 @@ p, h3, h5, h6{
 	font-family: 'Prompt', sans-serif;
 }
 
+.content{
+	text-align: left;
+	padding:0 5%;
+	font-size: 1.5rem;
+}
+
 .con_top h1{
 
 	color: white;
+}
+
+
+.social ul li{
+
+	display: block;
 }
 
 .con_top{
@@ -100,13 +131,18 @@ p, h3, h5, h6{
 	padding: 10px;
 
 }
-.conclude{
+.member, {
 	text-align: left;
 	padding-left: 50px;
 	height: 250px;
-	background-color: black;
+
+
 }
-.conclude ul li{
+.member h2{
+	color:#FFC107;
+}
+
+.member ul li{
 	color: white;
 	text-align: left;
 	width: 20%;
@@ -116,14 +152,12 @@ p, h3, h5, h6{
 
 .describe{
 	color: white;
-	background-color: #eea236;
-	border-radius: 15px;
-	text-shadow: 1px 1px 4px black;
-	margin: 0 25%; 
 }
 
 span{
 	color:#FFC107;
+	text-shadow: 1px 0px 0.5px black;
+	font-size: 20px;
 }
 
 #con{
@@ -133,6 +167,7 @@ span{
 #cons{
 	border-color:#FFC107;
 }
+
 
 .panel-title{
 	text-shadow: 1px 1px 1px black;
