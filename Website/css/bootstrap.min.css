@@ -21,8 +21,8 @@ body{
 
 .navigator, .nav-s{
 	margin: -9px 0 0 0;
-	padding: 15px 0 5px 0;
-	text-align: center;
+	padding: 15px 15px 15px 0;
+	text-align: right;
 
 }
 
