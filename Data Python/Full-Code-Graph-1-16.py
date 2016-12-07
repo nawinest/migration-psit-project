@@ -126,3 +126,129 @@ def function8():
     line_chart.add(data[203], [int(data[204]), int(data[205]), int(data[206]), int(data[207])])
     line_chart.render_to_file('08.svg')
 function8()
+def function9():
+    """Show graph that calculated of subject"""
+    with open('data.txt', 'r') as file:
+        read_data = file.read()
+    data = read_data.split()
+    line_chart = pygal.Line()
+    line_chart.title = data[208]
+    line_chart.x_labels = map(str, range(2554, 2558))
+    line_chart.add(data[209], [int(data[210]), int(data[211]), int(data[212]), int(data[213])])
+    line_chart.add(data[214], [int(data[215]), int(data[216]), int(data[217]), int(data[218])])
+    line_chart.add(data[219], [int(data[220]), int(data[221]), int(data[222]), int(data[223])])
+    line_chart.add(data[224], [int(data[225]), int(data[226]), int(data[227]), int(data[228])])
+    line_chart.add(data[229], [int(data[230]), int(data[231]), int(data[232]), int(data[233])])
+    line_chart.render_to_file('09.svg')
+function9()
+def function10():
+    """Show graph that calculated of subject"""
+    with open('data.txt', 'r') as file:
+        read_data = file.read()
+    data = read_data.split()
+    line_chart = pygal.Line()
+    line_chart.title = data[234]
+    line_chart.x_labels = map(str, range(2554, 2558))
+    line_chart.add(data[235], [int(data[236]), int(data[237]), int(data[238]), int(data[239])])
+    line_chart.add(data[240], [int(data[241]), int(data[242]), int(data[243]), int(data[244])])
+    line_chart.add(data[245], [int(data[246]), int(data[247]), int(data[248]), int(data[249])])
+    line_chart.add(data[250], [int(data[251]), int(data[252]), int(data[253]), int(data[254])])
+    line_chart.add(data[255], [int(data[256]), int(data[257]), int(data[258]), int(data[259])])
+    line_chart.render_to_file('10.svg')
+function10()
+def function11():
+    """Show graph that calculated of subject"""
+    with open('data.txt', 'r') as file:
+        read_data = file.read()
+    data = read_data.split()
+    line_chart = pygal.Line()
+    line_chart.title = data[260]
+    line_chart.x_labels = map(str, range(2554, 2558))
+    line_chart.add(data[261], [int(data[262]), int(data[263]), int(data[264]), int(data[265])])
+    line_chart.add(data[266], [int(data[267]), int(data[268]), int(data[269]), int(data[270])])
+    line_chart.add(data[271], [int(data[272]), int(data[273]), int(data[274]), int(data[275])])
+    line_chart.add(data[276], [int(data[277]), int(data[278]), int(data[279]), int(data[280])])
+    line_chart.add(data[281], [int(data[282]), int(data[283]), int(data[284]), int(data[285])])
+    line_chart.render_to_file('11.svg')
+function11()
+def function12():
+    """Show graph that calculated of subject"""
+    with open('data.txt', 'r') as file:
+        read_data = file.read()
+    data = read_data.split()
+    line_chart = pygal.Line()
+    line_chart.title = data[286]
+    line_chart.x_labels = map(str, range(2554, 2558))
+    line_chart.add(data[287], [int(data[288]), int(data[289]), int(data[290]), int(data[291])])
+    line_chart.add(data[292], [int(data[293]), int(data[294]), int(data[295]), int(data[296])])
+    line_chart.add(data[297], [int(data[298]), int(data[299]), int(data[300]), int(data[301])])
+    line_chart.add(data[302], [int(data[303]), int(data[304]), int(data[305]), int(data[306])])
+    line_chart.add(data[307], [int(data[308]), int(data[309]), int(data[310]), int(data[311])])
+    line_chart.render_to_file('12.svg')
+function12()
+def function13():
+    """Show graph that calculated of subject"""
+    with open('data.txt', 'r') as file:
+        read_data = file.read()
+    data = read_data.split()
+    line_chart = pygal.Line()
+    line_chart.title = data[312]
+    line_chart.x_labels = map(str, range(2554, 2558))
+    line_chart.add(data[313], [int(data[314]), int(data[315]), int(data[316]), int(data[317])])
+    line_chart.add(data[318], [int(data[319]), int(data[320]), int(data[321]), int(data[322])])
+    line_chart.add(data[323], [int(data[324]), int(data[325]), int(data[326]), int(data[327])])
+    line_chart.add(data[328], [int(data[329]), int(data[330]), int(data[331]), int(data[332])])
+    line_chart.add(data[333], [int(data[334]), int(data[335]), int(data[336]), int(data[337])])
+    line_chart.render_to_file('13.svg')
+function13()
+def function14():
+    """Show graph that calculated of subject"""
+    with open('data.txt', 'r') as file:
+        read_data = file.read()
+    data = read_data.split()
+    line_chart = pygal.Bar()
+    line_chart.title = data[338]
+    line_chart.x_labels = map(str, ("ใต้", "ตะวันออกเฉียงเหนือ", "เหนือ", "กลาง", "กรุงเทพมหานคร"))
+    line_chart.add(data[339], [float(data[340]), float(data[341]), float(data[342]), float(data[343]), float(data[344])])
+    line_chart.add(data[345], [float(data[346]), float(data[347]), float(data[348]), float(data[349]), float(data[350])])
+    line_chart.add(data[351], [float(data[352]), float(data[353]), float(data[354]), float(data[355]), float(data[356])])
+    line_chart.add(data[357], [float(data[358]), float(data[359]), float(data[360]), float(data[361]), float(data[362])])
+    line_chart.add(data[363], [float(data[364]), float(data[365]), float(data[366]), float(data[367]), float(data[368])])
+    line_chart.render_to_file('14.svg')
+function14()
+def function15():
+    """Show graph that calculated of subject"""
+    with open('data.txt', 'r') as file:
+        read_data = file.read()
+    data = read_data.split()
+    line_chart = pygal.HorizontalBar(print_values=True, value_formatter=lambda x: '{}'.format(x))
+    line_chart.title = data[369]
+    line_chart.add(data[384], float(data[385]))
+    line_chart.add(data[370], float(data[371]))
+    line_chart.add(data[386], float(data[387]))
+    line_chart.add(data[376], float(data[377]))
+    line_chart.add(data[380], float(data[381]))
+    line_chart.add(data[378], float(data[379]))
+    line_chart.add(data[372], float(data[373]))
+    line_chart.add(data[382], float(data[383]))
+    line_chart.add(data[394], float(data[395]))
+    line_chart.add(data[390], float(data[391]))
+    line_chart.add(data[374], float(data[375]))
+    line_chart.add(data[392], float(data[393]))
+    line_chart.add(data[388], float(data[389]))
+    line_chart.render_to_file('15.svg')
+function15()
+def function16():
+    """Show graph that calculated of subject"""
+    with open('data.txt', 'r') as file:
+        read_data = file.read()
+    data = read_data.split()
+    pie_chart = pygal.Pie(print_values=True, value_formatter=lambda x: '{}'.format(x))
+    pie_chart.title = data[396]
+    pie_chart.add(data[397], float(data[398]))
+    pie_chart.add(data[399], float(data[400]))
+    pie_chart.add(data[401], float(data[402]))
+    pie_chart.add(data[403], float(data[404]))
+    pie_chart.add(data[405], float(data[406]))
+    pie_chart.render_to_file('16.svg')
+function16()
